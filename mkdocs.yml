@@ -1,0 +1,55 @@
+site_name: "Mandatory Proofs: Proving Times"
+site_url: https://jsign.github.io/proving-time-scenarios/
+repo_url: https://github.com/jsign/proving-time-scenarios
+repo_name: jsign/proving-time-scenarios
+edit_uri: edit/main/docs/
+
+nav:
+  - Overview: index.md
+  - Foundations: foundations.md
+  - Scenarios:
+      - ePBS baseline: scenarios/epbs-baseline.md
+      - Delayed state root: scenarios/delayed-state-root.md
+      - Delayed execution: scenarios/delayed-execution.md
+  - Evaluation: evaluation.md
+
+theme:
+  name: material
+  features:
+    - content.action.view
+    - navigation.footer
+    - navigation.sections
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+exclude_docs: |
+  **/*.excalidraw
