@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1065 625" width="1065" height="625" role="img" aria-labelledby="title desc">
+  <title id="title">Delayed execution next-slot proof timeline</title>
+  <desc id="desc">Under the hypothetical next-slot proof model, payload N is available by t equals 6. Candidate builders for N plus 1 then have at most six seconds to generate proof N. The selected builder gives proof N to the beacon proposer. The proposer carries it in beacon block N plus 1 at t equals 12. Execution payload N plus 1 arrives later. EIP-7886 does not define this proof duty.</desc>
+  <defs>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1971c2"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f9e44"/>
+    </marker>
+    <style>
+      text { font-family: Virgil, sans-serif, "Segoe UI Emoji"; }
+      .title { fill: #1e1e1e; font-size: 28px; }
+      .slot { fill: #1e1e1e; font-size: 19px; }
+      .time { font-size: 18px; }
+      .actor { fill: #1e1e1e; font-size: 20px; }
+      .main { fill: #1e1e1e; font-size: 18px; }
+      .sub { fill: #495057; font-size: 15px; }
+      .event { fill: #495057; font-size: 15px; }
+    </style>
+  </defs>
+
+  <rect width="1065" height="625" fill="#ffffff"/>
+  <text class="title" x="15" y="36">Delayed execution: next-slot proof timeline</text>
+
+  <text class="slot" x="505" y="73" text-anchor="middle">Slot N</text>
+  <text class="slot" x="900" y="73" text-anchor="middle">Slot N+1 starts</text>
+  <line x1="230" y1="105" x2="780" y2="105" stroke="#1e1e1e" stroke-width="2"/>
+  <line x1="780" y1="105" x2="1035" y2="105" stroke="#adb5bd" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <line x1="230" y1="85" x2="230" y2="125" stroke="#1971c2" stroke-width="3"/>
+  <line x1="505" y1="85" x2="505" y2="384" stroke="#e03131" stroke-width="3"/>
+  <line x1="642" y1="75" x2="642" y2="125" stroke="#e03131" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="780" y1="85" x2="780" y2="565" stroke="#1971c2" stroke-width="3"/>
+
+  <text class="time" x="230" y="147" fill="#1971c2" text-anchor="middle">t=0</text>
+  <text class="time" x="505" y="147" fill="#e03131" text-anchor="middle">t=6</text>
+  <text class="time" x="642" y="147" fill="#e03131" text-anchor="middle">t=9</text>
+  <text class="time" x="780" y="147" fill="#1971c2" text-anchor="middle">t=12</text>
+
+  <text class="event" x="490" y="171" text-anchor="end">Payload N due</text>
+  <text class="event" x="765" y="171" text-anchor="end">PTC: no proof duty</text>
+
+  <text class="actor" x="10" y="232">Builder N</text>
+  <rect x="300" y="195" width="180" height="70" rx="13" fill="#e7f5ff" stroke="#1971c2" stroke-width="2.5" stroke-dasharray="8 7"/>
+  <text class="main" x="390" y="223" text-anchor="middle">Payload N</text>
+  <text class="sub" x="390" y="247" text-anchor="middle">Available by t=6</text>
+  <path d="M 480 230 H 499" fill="none" stroke="#1971c2" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <circle cx="505" cy="230" r="7" fill="#1971c2"/>
+
+  <line x1="205" y1="285" x2="1035" y2="285" stroke="#dee2e6" stroke-width="1.5"/>
+
+  <text class="actor" x="10" y="349">Builders for N+1</text>
+  <path d="M 512 344 H 524" fill="none" stroke="#2f9e44" stroke-width="3" marker-end="url(#arrow-green)"/>
+  <rect x="525" y="305" width="230" height="78" rx="13" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2.5" stroke-dasharray="8 7"/>
+  <text class="main" x="640" y="332" text-anchor="middle">Generate proof N</text>
+  <text class="sub" x="640" y="356" text-anchor="middle">At most 6s gross</text>
+  <text class="sub" x="640" y="376" text-anchor="middle">before overhead</text>
+  <path d="M 755 344 H 774" fill="none" stroke="#2f9e44" stroke-width="3" marker-end="url(#arrow-green)"/>
+  <circle cx="780" cy="344" r="7" fill="#2f9e44"/>
+
+  <line x1="205" y1="405" x2="1035" y2="405" stroke="#dee2e6" stroke-width="1.5"/>
+
+  <text class="actor" x="10" y="457">Selected builder N+1</text>
+  <path d="M 780 351 V 450 H 766" fill="none" stroke="#1971c2" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <rect x="560" y="415" width="200" height="70" rx="14" fill="#e7f5ff" stroke="#1971c2" stroke-width="2.5"/>
+  <text class="main" x="660" y="443" text-anchor="middle">Gives proof N to</text>
+  <text class="sub" x="660" y="467" text-anchor="middle">beacon proposer</text>
+
+  <line x1="205" y1="500" x2="1035" y2="500" stroke="#dee2e6" stroke-width="1.5"/>
+
+  <text class="actor" x="10" y="547">Beacon proposer N+1</text>
+  <path d="M 760 450 H 780 V 540 H 794" fill="none" stroke="#1971c2" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <rect x="800" y="505" width="240" height="70" rx="14" fill="#e7f5ff" stroke="#1971c2" stroke-width="2.5"/>
+  <text class="main" x="920" y="533" text-anchor="middle">Beacon block N+1</text>
+  <text class="sub" x="920" y="557" text-anchor="middle">Includes proof N at t=12</text>
+
+  <rect x="230" y="590" width="810" height="25" rx="10" fill="#fff5f5" stroke="#e03131" stroke-width="2" stroke-dasharray="8 7"/>
+  <text x="635" y="608" fill="#c92a2a" font-size="15" text-anchor="middle">HYPOTHETICAL: EIP-7886 does not assign proof N to builders for N+1.</text>
+</svg>
