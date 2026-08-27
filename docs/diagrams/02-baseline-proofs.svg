@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1095 430" width="1095" height="430" role="img" aria-labelledby="title desc">
+  <title id="title">Baseline execution-proof timeline</title>
+  <desc id="desc">The builder freezes the payload and starts the proof immediately before the rounded slot-boundary reference at t equals zero. Proof propagation starts after proof generation. The next proposer has a six-second execution-validation budget, while other validators have a nine-second budget.</desc>
+  <defs>
+    <style>
+      text { font-family: Virgil, sans-serif, "Segoe UI Emoji"; }
+      .title { fill: #1e1e1e; font-size: 28px; }
+      .time { font-size: 18px; }
+      .actor { fill: #1e1e1e; font-size: 20px; }
+      .main { fill: #1e1e1e; font-size: 18px; }
+      .sub { fill: #495057; font-size: 15px; }
+    </style>
+  </defs>
+
+  <rect width="1095" height="430" fill="#ffffff"/>
+  <text class="title" x="15" y="36">Baseline: builder-owned proof timeline</text>
+
+  <line x1="170" y1="115" x2="1070" y2="115" stroke="#1e1e1e" stroke-width="2"/>
+  <line x1="170" y1="95" x2="170" y2="135" stroke="#1971c2" stroke-width="3"/>
+  <line x1="350" y1="95" x2="350" y2="135" stroke="#1971c2" stroke-width="3"/>
+  <line x1="530" y1="95" x2="530" y2="135" stroke="#e03131" stroke-width="3"/>
+  <line x1="710" y1="80" x2="710" y2="330" stroke="#e03131" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="890" y1="95" x2="890" y2="135" stroke="#1971c2" stroke-width="3"/>
+
+  <text class="time" x="170" y="157" fill="#1971c2" text-anchor="middle">t=0</text>
+  <text class="time" x="350" y="157" fill="#1971c2" text-anchor="middle">t=3</text>
+  <text class="time" x="530" y="157" fill="#e03131" text-anchor="middle">t=6</text>
+  <text class="time" x="710" y="157" fill="#e03131" text-anchor="middle">t=9</text>
+  <text class="time" x="890" y="157" fill="#1971c2" text-anchor="middle">t=12</text>
+
+  <text class="actor" x="10" y="229">Builder / prover</text>
+  <rect x="165" y="195" width="455" height="55" rx="13" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2.5" stroke-dasharray="8 7"/>
+  <text class="main" x="392" y="228" text-anchor="middle">Generate and verify execution proof</text>
+  <line x1="165" y1="180" x2="165" y2="255" stroke="#2f9e44" stroke-width="3"/>
+  <text class="sub" x="165" y="279" text-anchor="middle">Payload freeze = proof start</text>
+  <text class="sub" x="165" y="300" text-anchor="middle">immediately before t=0</text>
+
+  <rect x="620" y="195" width="90" height="55" rx="13" fill="#fff3bf" stroke="#f08c00" stroke-width="2.5"/>
+  <text class="sub" x="665" y="216" text-anchor="middle">Proof</text>
+  <text class="sub" x="665" y="237" text-anchor="middle">propagation</text>
+
+  <rect x="730" y="195" width="340" height="125" rx="14" fill="#fff5f5" stroke="#e03131" stroke-width="2.5" stroke-dasharray="8 7"/>
+  <text class="main" x="900" y="223" text-anchor="middle">Rounded reference assumption</text>
+  <text class="sub" x="900" y="248" text-anchor="middle">Payload freeze is immediately before t=0.</text>
+  <text class="sub" x="900" y="271" text-anchor="middle">Proof generation starts at the freeze.</text>
+  <text class="sub" x="900" y="294" text-anchor="middle">This is not an ePBS protocol rule.</text>
+
+  <rect x="165" y="335" width="905" height="75" rx="14" fill="#e7f5ff" stroke="#1971c2" stroke-width="2.5"/>
+  <text class="main" x="617" y="358" text-anchor="middle">Specified ePBS execution-validation budgets</text>
+  <text class="main" x="617" y="381" text-anchor="middle">Next proposer: 6 seconds</text>
+  <text class="main" x="617" y="404" text-anchor="middle">Other validators: 9 seconds</text>
+</svg>
