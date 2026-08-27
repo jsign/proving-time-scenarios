@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1065 470" width="1065" height="470" role="img" aria-labelledby="title desc">
+  <title id="title">Delayed state root builder timeline</title>
+  <desc id="desc">During slot N minus 1, builder N calculates root N minus 1. Block N contains that root. During slot N, builder N proves block N without root N while candidate builders for N plus 1 calculate root N. The selected builder includes root N in block N plus 1. The eight-percent root-calculation estimate is unpublished and proof-system-specific.</desc>
+  <defs>
+    <style class="style-fonts">
+      @font-face { font-family: Virgil; src: url(data:font/woff2;base64,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); }</style>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1971c2"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f9e44"/>
+    </marker>
+    <style>
+      text { font-family: Virgil, sans-serif, "Segoe UI Emoji"; }
+      .title { fill: #1e1e1e; font-size: 28px; }
+      .slot { fill: #1e1e1e; font-size: 19px; }
+      .time { font-size: 18px; }
+      .actor { fill: #1e1e1e; font-size: 20px; }
+      .main { fill: #1e1e1e; font-size: 18px; }
+      .sub { fill: #495057; font-size: 15px; }
+      .event { fill: #495057; font-size: 15px; }
+      .note { fill: #495057; font-size: 14px; }
+    </style>
+  </defs>
+
+  <rect width="1065" height="470" fill="#ffffff"/>
+  <text class="title" x="15" y="36">Delayed state root: builder timeline</text>
+
+  <text class="slot" x="245" y="73" text-anchor="middle">Slot N-1</text>
+  <text class="slot" x="545" y="73" text-anchor="middle">Slot N</text>
+  <text class="slot" x="845" y="73" text-anchor="middle">Slot N+1</text>
+  <line x1="95" y1="105" x2="1045" y2="105" stroke="#1e1e1e" stroke-width="2"/>
+
+  <line x1="95" y1="85" x2="95" y2="125" stroke="#1971c2" stroke-width="3"/>
+  <line x1="245" y1="85" x2="245" y2="125" stroke="#e03131" stroke-width="3"/>
+  <line x1="395" y1="85" x2="395" y2="125" stroke="#1971c2" stroke-width="3"/>
+  <line x1="545" y1="85" x2="545" y2="125" stroke="#e03131" stroke-width="3"/>
+  <line x1="620" y1="75" x2="620" y2="280" stroke="#e03131" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="695" y1="85" x2="695" y2="125" stroke="#1971c2" stroke-width="3"/>
+  <line x1="995" y1="85" x2="995" y2="125" stroke="#1971c2" stroke-width="3"/>
+
+  <text class="time" x="95" y="147" fill="#1971c2" text-anchor="middle">t=-12</text>
+  <text class="time" x="245" y="147" fill="#e03131" text-anchor="middle">t=-6</text>
+  <text class="time" x="395" y="147" fill="#1971c2" text-anchor="middle">t=0</text>
+  <text class="time" x="545" y="147" fill="#e03131" text-anchor="middle">t=6</text>
+  <text class="time" x="620" y="147" fill="#e03131" text-anchor="middle">t=9</text>
+  <text class="time" x="695" y="147" fill="#1971c2" text-anchor="middle">t=12</text>
+  <text class="time" x="995" y="147" fill="#1971c2" text-anchor="middle">t=24</text>
+
+  <text class="event" x="245" y="170" text-anchor="middle">State N-1 available</text>
+  <text class="event" x="545" y="170" text-anchor="middle">State N available</text>
+
+  <text class="actor" x="10" y="222">Builder / prover N</text>
+  <rect x="245" y="186" width="140" height="68" rx="13" fill="#e7f5ff" stroke="#1971c2" stroke-width="2.5" stroke-dasharray="8 7"/>
+  <text class="main" x="315" y="214" font-size="17px" text-anchor="middle">Calculate</text>
+  <text class="main" x="315" y="235" font-size="17px" text-anchor="middle">root N-1</text>
+  <path d="M 385 219 H 389" fill="none" stroke="#1971c2" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <circle cx="395" cy="219" r="7" fill="#1971c2"/>
+  <rect x="410" y="186" width="200" height="68" rx="13" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2.5" stroke-dasharray="8 7"/>
+  <text class="main" x="510" y="214" text-anchor="middle">Proof N</text>
+  <text class="sub" x="510" y="236" text-anchor="middle">No root N work</text>
+  <path d="M 610 219 H 614" fill="none" stroke="#2f9e44" stroke-width="3" marker-end="url(#arrow-green)"/>
+  <circle cx="620" cy="219" r="7" fill="#2f9e44"/>
+  <text class="event" x="395" y="282" text-anchor="middle">Block N: header contains root N-1</text>
+
+  <line x1="185" y1="304" x2="1045" y2="304" stroke="#dee2e6" stroke-width="1.5"/>
+
+  <text class="actor" x="10" y="365">Builders for N+1</text>
+  <rect x="545" y="328" width="145" height="68" rx="13" fill="#e7f5ff" stroke="#1971c2" stroke-width="2.5" stroke-dasharray="8 7"/>
+  <text class="main" x="617.5" y="356" font-size="17px" text-anchor="middle">Calculate</text>
+  <text class="main" x="617.5" y="377" font-size="17px" text-anchor="middle">root N</text>
+  <path d="M 690 362 H 704" fill="none" stroke="#1971c2" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrow-blue)"/>
+  <rect x="705" y="328" width="250" height="68" rx="14" fill="#e7f5ff" stroke="#1971c2" stroke-width="2.5"/>
+  <text class="main" x="830" y="356" text-anchor="middle">Selected builder N+1</text>
+  <text class="sub" x="830" y="379" text-anchor="middle">Publishes header with root N</text>
+
+  <text class="note" x="615" y="440" text-anchor="middle">Note: Root calculation is ~8% of proving time (unpublished, proof-system-specific estimate).</text>
+</svg>
