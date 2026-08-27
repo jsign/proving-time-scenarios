@@ -1,0 +1,145 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1070 570" width="1070" height="570">
+  <!-- svg-source:excalidraw -->
+
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1070" height="610" fill="#ffffff">
+</rect>
+<g transform="translate(10 10) rotate(0 390 17.5)">
+<text x="0" y="30" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#1e1e1e" text-anchor="start" style="white-space: pre;" direction="ltr">ePBS slot timing: specified events</text>
+</g>
+<g stroke-linecap="round" transform="translate(90 70) rotate(0 360 27.5)">
+<path d="M-1.6 -0.58 L721.05 1.81 L720.25 53.23 L0.93 56.53" stroke="none" stroke-width="0" fill="#d0ebff">
+</path>
+<path d="M0.34 0.39 C143.88 -0.12, 287.78 -1.28, 719.68 0.16 M-0.26 0.11 C159.55 -0.92, 318.78 -1.15, 719.77 0.3 M721.54 -1.75 C720.84 13.19, 721.54 22.28, 721.39 54.13 M720.3 -0.8 C720.42 13.9, 719.44 29.55, 720.41 55.35 M720.42 54.91 C565.13 57.77, 408.76 57.55, 0.73 54.84 M719.62 54.94 C449.31 55.44, 179 55.33, 0.38 55.02 M-0.72 54.72 C0.86 37.7, -0.87 23.63, 0.59 -1.21 M0.22 56 C-1.11 34.34, -0.61 14.09, 0.44 0.99" stroke="#1971c2" stroke-width="2" fill="none">
+</path>
+</g>
+<g transform="translate(320 83) rotate(0 130 15)">
+<text x="130" y="25" font-family="Virgil, Segoe UI Emoji" font-size="22px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr">Slot N: 12 seconds</text>
+</g>
+<g stroke-linecap="round" transform="translate(810 70) rotate(0 120 27.5)">
+<path d="M-1.6 -0.58 L241.05 1.81 L240.25 53.23 L0.93 56.53" stroke="none" stroke-width="0" fill="#e7f5ff">
+</path>
+<path d="M0.71 0.8 C47.73 0.56, 95.54 -1.85, 239.34 0.33 M-0.54 0.22 C53.49 -0.19, 106.32 -0.66, 239.52 0.63 M241.54 -1.75 C240.84 13.19, 241.54 22.28, 241.39 54.13 M240.3 -0.8 C240.42 13.9, 239.44 29.55, 240.41 55.35 M240.88 54.82 C189.1 56.82, 135.07 56.36, 1.53 54.66 M239.21 54.88 C149.71 55.45, 60.23 55.22, 0.78 55.03 M-0.72 54.72 C0.86 37.7, -0.87 23.63, 0.59 -1.21 M0.22 56 C-1.11 34.34, -0.61 14.09, 0.44 0.99" stroke="#1971c2" stroke-width="2" fill="none">
+</path>
+</g>
+<g transform="translate(845 83) rotate(0 85 15)">
+<text x="85" y="25" font-family="Virgil, Segoe UI Emoji" font-size="22px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr">Slot N+1</text>
+</g>
+<g stroke-linecap="round">
+<g transform="translate(90 210) rotate(0 480 0)">
+<path d="M0.24 0.51 C160.54 0.65, 800.5 -0.05, 960.58 -0.19 M-1.09 -0.26 C159.21 0.15, 799.7 1.07, 959.93 1.24" stroke="#1e1e1e" stroke-width="2" fill="none">
+</path>
+</g>
+</g>
+<g stroke-linecap="round">
+<g transform="translate(90 185) rotate(0 0 25)">
+<path d="M0.24 0.51 C0.54 8.98, 0.5 41.62, 0.58 49.81 M-1.09 -0.26 C-0.79 8.48, -0.3 42.73, -0.07 51.24" stroke="#1971c2" stroke-width="3" fill="none">
+</path>
+</g>
+</g>
+<g stroke-linecap="round">
+<g transform="translate(270 185) rotate(0 0 25)">
+<path d="M0.24 0.51 C0.54 8.98, 0.5 41.62, 0.58 49.81 M-1.09 -0.26 C-0.79 8.48, -0.3 42.73, -0.07 51.24" stroke="#e03131" stroke-width="3" fill="none">
+</path>
+</g>
+</g>
+<g stroke-linecap="round">
+<g transform="translate(450 185) rotate(0 0 25)">
+<path d="M0.24 0.51 C0.54 8.98, 0.5 41.62, 0.58 49.81 M-1.09 -0.26 C-0.79 8.48, -0.3 42.73, -0.07 51.24" stroke="#e03131" stroke-width="3" fill="none">
+</path>
+</g>
+</g>
+<g stroke-linecap="round">
+<g transform="translate(630 185) rotate(0 0 25)">
+<path d="M0.24 0.51 C0.54 8.98, 0.5 41.62, 0.58 49.81 M-1.09 -0.26 C-0.79 8.48, -0.3 42.73, -0.07 51.24" stroke="#e03131" stroke-width="3" fill="none">
+</path>
+</g>
+</g>
+<g stroke-linecap="round">
+<g transform="translate(810 185) rotate(0 0 25)">
+<path d="M0.24 0.51 C0.54 8.98, 0.5 41.62, 0.58 49.81 M-1.09 -0.26 C-0.79 8.48, -0.3 42.73, -0.07 51.24" stroke="#1971c2" stroke-width="3" fill="none">
+</path>
+</g>
+</g>
+<g stroke-linecap="round">
+<g transform="translate(990 185) rotate(0 0 25)">
+<path d="M0.24 0.51 C0.54 8.98, 0.5 41.62, 0.58 49.81 M-1.09 -0.26 C-0.79 8.48, -0.3 42.73, -0.07 51.24" stroke="#e03131" stroke-width="3" fill="none">
+</path>
+</g>
+</g>
+<g transform="translate(45 250) rotate(0 45 37.5)">
+<text x="45" y="20" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr">t=0</text>
+<text x="45" y="45" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr">Beacon</text>
+<text x="45" y="70" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr">block</text>
+</g>
+<g transform="translate(210 250) rotate(0 60 37.5)">
+<text x="60" y="20" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr">t=3</text>
+<text x="60" y="45" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr">Attestation</text>
+<text x="60" y="70" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr">due</text>
+</g>
+<g transform="translate(390 250) rotate(0 60 50)">
+<text x="60" y="28.333333333333336" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr">t=6</text>
+<text x="60" y="61.66666666666667" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr">Aggregate due</text>
+<text x="60" y="95" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr">Payload reveal due</text>
+</g>
+<g transform="translate(565 250) rotate(0 65 37.5)">
+<text x="65" y="20" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr">t=9</text>
+<text x="65" y="45" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr">PTC message</text>
+<text x="65" y="70" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr">due</text>
+</g>
+<g transform="translate(745 250) rotate(0 65 37.5)">
+<text x="65" y="20" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr">t=12</text>
+<text x="65" y="45" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr">Next slot</text>
+<text x="65" y="70" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr">starts</text>
+</g>
+<g transform="translate(920 250) rotate(0 70 37.5)">
+<text x="70" y="20" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr">t=15</text>
+<text x="70" y="45" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr">Next attestation</text>
+<text x="70" y="70" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#e03131" text-anchor="middle" style="white-space: pre;" direction="ltr">due</text>
+</g>
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M630.32 355.16 C630.03 349.12, 629.86 341.61, 630.18 332.38 M629.54 354.83 C629.73 347.92, 630.31 340.66, 629.87 332.61" stroke="#f08c00" stroke-width="2" fill="none">
+</path>
+<path d="M624.76 340.44 L630.18 332.38 L635.42 340.55 M624.55 340.13 L629.87 332.61 L635.16 340.26" stroke="#f08c00" stroke-width="2" fill="none">
+</path>
+</g>
+<g stroke-linecap="round" transform="translate(415 355) rotate(0 215 35) scale(0.6615384615 1)">
+<path d="M-1.6 -0.58 L651.05 1.81 L650.25 68.23 L0.93 71.53" stroke="none" stroke-width="0" fill="#fff3bf">
+</path>
+<path d="M0.34 0.39 C129.88 -0.06, 259.78 -1.22, 649.68 0.16 M-0.26 0.11 C144.05 -0.8, 287.79 -1.02, 649.77 0.3 M651.54 -1.75 C650.78 16.46, 651.47 28.81, 651.39 69.13 M650.3 -0.8 C650.46 17.93, 649.49 37.6, 650.41 70.35 M650.42 69.91 C510.23 72.49, 368.95 72.28, 0.73 69.84 M649.62 69.94 C405.62 70.4, 161.63 70.29, 0.38 70.02 M-0.72 69.72 C0.75 48.39, -0.98 30.03, 0.59 -1.21 M0.22 71 C-1.21 43.88, -0.7 18.17, 0.44 0.99" stroke="#f08c00" stroke-width="2" vector-effect="non-scaling-stroke" fill="none">
+</path>
+</g>
+<g transform="translate(435 365) rotate(0 195 25)">
+<text x="195" y="20" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#9c6500" text-anchor="middle" style="white-space: pre;" direction="ltr">PTC duty (report sent at t=9):</text>
+<text x="195" y="45" font-family="Virgil, Segoe UI Emoji" font-size="18px" fill="#9c6500" text-anchor="middle" style="white-space: pre;" direction="ltr">payload presence and blob availability</text>
+</g>
+<g stroke-linecap="round" transform="translate(450 455) rotate(0 180 22.5)">
+<path d="M-1.6 -0.58 L361.05 1.81 L360.25 43.23 L0.93 46.53" stroke="none" stroke-width="0" fill="#e7f5ff">
+</path>
+<path d="M0.54 0.61 C71.8 0.27, 143.65 -1.56, 359.5 0.25 M-0.41 0.17 C79.96 -0.47, 159.43 -0.83, 359.63 0.48 M361.54 -1.75 C360.89 11.02, 361.58 17.93, 361.39 44.13 M360.3 -0.8 C360.38 11.22, 359.41 24.18, 360.41 45.35 M360.67 44.86 C283.01 47.13, 203.65 46.79, 1.16 44.74 M359.4 44.91 C224.62 45.43, 89.85 45.26, 0.59 45.03 M-0.72 44.72 C0.93 30.57, -0.8 19.37, 0.59 -1.21 M0.22 46 C-1.05 27.98, -0.55 11.36, 0.44 0.99" stroke="#1971c2" stroke-width="2" fill="none">
+</path>
+</g>
+<g transform="translate(470 465) rotate(0 160 12.5)">
+<text x="160" y="20" font-family="Virgil, Segoe UI Emoji" font-size="17px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr">Next proposer: 6 seconds (t=6 to t=12)</text>
+</g>
+<g stroke-linecap="round" transform="translate(450 515) rotate(0 270 22.5)">
+<path d="M-1.6 -0.58 L541.05 1.81 L540.25 43.23 L0.93 46.53" stroke="none" stroke-width="0" fill="#e7f5ff">
+</path>
+<path d="M0.34 0.39 C107.87 0.03, 215.78 -1.13, 539.68 0.16 M-0.26 0.11 C119.71 -0.61, 239.09 -0.83, 539.77 0.3 M541.54 -1.75 C540.89 11.02, 541.58 17.93, 541.39 44.13 M540.3 -0.8 C540.38 11.22, 539.41 24.18, 540.41 45.35 M540.42 44.91 C423.95 47.06, 306.4 46.84, 0.73 44.84 M539.62 44.94 C336.97 45.35, 134.33 45.24, 0.38 45.02 M-0.72 44.72 C0.93 30.57, -0.8 19.37, 0.59 -1.21 M0.22 46 C-1.05 27.98, -0.55 11.36, 0.44 0.99" stroke="#1971c2" stroke-width="2" fill="none">
+</path>
+</g>
+<g transform="translate(480 525) rotate(0 240 12.5)">
+<text x="240" y="20" font-family="Virgil, Segoe UI Emoji" font-size="17px" fill="#1971c2" text-anchor="middle" style="white-space: pre;" direction="ltr">Other validators: 9 seconds (t=6 to t=15)</text>
+</g>
+</svg>
